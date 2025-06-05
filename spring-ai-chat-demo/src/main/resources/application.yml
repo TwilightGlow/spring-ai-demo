@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: spring-ai-chat-demo
+  profiles:
+    active: siliconflow
+#  ai:
+#    chat:
+#      client:
+#        enabled: false
+
+logging:
+  level:
+    # 开启 Spring AI 的调试日志
+    org.springframework.ai: DEBUG
+    org.springframework.retry: DEBUG
+    org.springframework.web.client.RestTemplate: DEBUG
+    org.springframework.web.client.DefaultRestClient: DEBUG

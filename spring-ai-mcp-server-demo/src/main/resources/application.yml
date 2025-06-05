@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: spring-ai-mcp-server-demo
+  ai:
+    mcp:
+      server:
+        name: spring-ai-mcp-server-demo
+        sse-message-endpoint: /mcp/message
+        enabled: true
+
+server:
+  port: 8081
